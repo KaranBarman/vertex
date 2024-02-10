@@ -18,7 +18,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="hidden md:flex justify-between items-center">
+    <header className="flex justify-between items-center">
       <Image
         src={"/images/logo/vertex.png"}
         alt="logo"
@@ -27,7 +27,7 @@ const Header = () => {
         width={75}
         className="dark:brightness-0 dark:invert"
       />
-      <NavigationMenu>
+      <NavigationMenu className="hidden md:flex">
         <NavigationMenuList>
           <NavigationMenuItem>
             <Link href="/docs" legacyBehavior passHref>
