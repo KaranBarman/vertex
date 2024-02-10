@@ -11,6 +11,7 @@ const Hero = () => {
           height={500}
           width={500}
           className="brightness-0 invert"
+          unoptimized
         />
         <p className="text-center text-muted-foreground text-black">
           Elevate Your Digital Presence with Expert Web Development Services
