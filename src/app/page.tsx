@@ -1,12 +1,15 @@
+import Hero from "@/components/page/hero";
+
 export default function Home() {
   return (
     <>
-      <div className="max-w-min mx-auto mt-32">
-        <h1 className="hero_font text-4xl md:text-[200px] font-bold">VERTEX</h1>
-        <p className="hero_font text-muted-foreground text-center text-sm md:text-lg mt-20">
-          Elevate Your Digital Presence with Expert Web Development Services
-        </p>
-      </div>
+      <Hero />
+      <p>
+        hi Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+        doloribus ipsum ratione aperiam natus saepe, repellendus facilis
+        temporibus. Dolores, reprehenderit dignissimos sunt unde ipsam impedit
+        facilis maiores. Adipisci, officiis. Minima!
+      </p>
     </>
   );
 }
