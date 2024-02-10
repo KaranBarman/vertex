@@ -80,7 +80,7 @@ const Header = () => {
                     >
                       <Globe className="h-6 w-6" />
                       <div className="mb-2 mt-4 text-lg font-medium">
-                        web dev
+                        website development
                       </div>
                       <p className="text-sm leading-tight text-muted-foreground">
                         Beautifully customized website built using latest
@@ -117,7 +117,7 @@ const Header = () => {
                         <Instagram className="h-6 w-6" />
                       </div>
                       <div className="mb-2 mt-4 text-lg font-medium">
-                        web dev
+                        Social media marketing
                       </div>
                       <p className="text-sm leading-tight text-muted-foreground">
                         Beautifully customized website built using latest
