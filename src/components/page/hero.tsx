@@ -13,7 +13,7 @@ const Hero = () => {
           className="brightness-0 invert"
           unoptimized
         />
-        <p className="text-center text-muted-foreground text-black">
+        <p className="text-center text-black">
           Elevate Your Digital Presence with Expert Web Development Services
         </p>
       </div>
