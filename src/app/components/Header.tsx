@@ -4,7 +4,7 @@ import { NavigationMenuDemo } from "./MenuBar";
 const Header = () => {
   return (
     <header className="flex justify-between items-center">
-      <div className="flex items-center gap-2">
+      <div className="hidden sm:flex items-center gap-2">
         <Image
           src={"/images/logo/dd.png"}
           alt="Logo"
@@ -12,9 +12,7 @@ const Header = () => {
           height={40}
           unoptimized
         />
-        <h1 className="hero_font tracking-normal hidden sm:block">
-          Durga Digitals
-        </h1>
+        <h1 className="hero_font tracking-normal">Durga Digitals</h1>
       </div>
       <NavigationMenuDemo />
       <ModeToggle />
