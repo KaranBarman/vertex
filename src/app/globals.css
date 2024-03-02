@@ -16,13 +16,21 @@ body,
   padding: 0;
 }
 
+.animation-duration {
+  animation-duration: 8500ms;
+}
+
+.react {
+  color: #00ffff;
+}
+
 @font-face {
-  font-family: "outfit";
-  src: url("/fonts/Outfit-Regular.woff2");
+  font-family: "tanker";
+  src: url("/fonts/Tanker-Regular.woff2");
 }
 
 .hero_font {
-  font-family: "outfit";
+  font-family: "tanker";
 }
 
 @layer base {
