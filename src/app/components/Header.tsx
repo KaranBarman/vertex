@@ -13,7 +13,7 @@ const Header = () => {
           unoptimized
           className="hidden sm:block"
         />
-        <h1 className="hero_font tracking-normal bg-gradient-to-r from-white to-emerald-500 bg-clip-text text-transparent">
+        <h1 className="hero_font tracking-normal bg-gradient-to-r from-emerald-950 to-emerald-500 bg-clip-text text-transparent">
           Durga Digitals
         </h1>
       </div>
